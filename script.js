@@ -17,7 +17,7 @@ guessButton.addEventListener("click", () => {
 
   // 檢查輸入是否有效
   if (!guessInput.value || guess < 1 || guess > 100) {
-    messageEl.textContent = "請輸入 1 到 100 之間的數字";
+    messageEl.textContent = "請輸入 1 到 100 之間的數字！不能輸入非數字";
     return;
   }
 
