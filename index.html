@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>猜數字遊戲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-box">
+    <h1>猜數字遊戲</h1>
+    <p>我心裡想了一個 1 到 100 之間的數字,你猜猜看!</p>
+
+    <input type="number" id="guess-input" placeholder="輸入你的猜測" min="1" max="100" />
+    <button id="guess-button">猜!</button>
+
+    <p id="message"></p>
+    <p id="attempts">已猜次數:0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
